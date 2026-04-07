@@ -2,7 +2,7 @@
 
 ```**Bash/Terminal:**
 (command -v node >/dev/null && echo "✔ Node.js installed: $(node -v)") || (
-  echo "❌ Node.js missing — installing Node.js LTS via nvm..."
+  echo " Node.js missing — installing Node.js LTS via nvm..."
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
   source ~/.nvm/nvm.sh
   nvm install --lts
@@ -14,7 +14,7 @@
 
 ```**Bash/Terminal:**
 (command -v npm >/dev/null && echo "✔ npm installed: $(npm -v)") || (
-  echo "❌ npm missing — installing Node.js LTS (npm included)..."
+  echo " npm missing — installing Node.js LTS (npm included)..."
   source ~/.nvm/nvm.sh
   nvm install --lts
   echo "✔ npm installed: $(npm -v)")
@@ -27,7 +27,7 @@ file:///home/abhishek/Desktop/dsim_leader_election
 
 ```**Bash/Terminal:**
 (command -v nodemon >/dev/null && echo "✔ nodemon installed") || (
-  echo "❌ nodemon missing — installing globally..."
+  echo " nodemon missing — installing globally..."
   npm install -g nodemon
   echo "✔ nodemon installed")
 ```
@@ -37,7 +37,7 @@ file:///home/abhishek/Desktop/dsim_leader_election
 ### CHECK OR INSTALL: nvm
 ```**Bash/Terminal:**
 (command -v nvm >/dev/null && echo "✔ nvm installed") || (
-  echo "❌ nvm missing — installing nvm..."
+  echo " nvm missing — installing nvm..."
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
   echo "✔ nvm installed — reload your terminal or run: source ~/.nvm/nvm.sh")
 ```
